@@ -1,0 +1,72 @@
+{
+  "criteria": [
+    {
+      "name": "Interview",
+      "keywords": [
+        "interview",
+        "technical screen",
+        "coding challenge",
+        "hiring manager",
+        "onsite",
+        "recruiter"
+      ],
+      "fields": ["subject", "body", "sender"],
+      "match_any": true
+    },
+    {
+      "name": "Exam / Assessment",
+      "keywords": [
+        "exam",
+        "assessment",
+        "test",
+        "quiz",
+        "midterm",
+        "final exam",
+        "take-home"
+      ],
+      "fields": ["subject", "body"],
+      "match_any": true
+    },
+    {
+      "name": "Schedule Request",
+      "keywords": [
+        "schedule",
+        "availability",
+        "please confirm",
+        "calendar invite",
+        "meeting request",
+        "book a time",
+        "let's connect"
+      ],
+      "fields": ["subject", "body"],
+      "match_any": true
+    },
+    {
+      "name": "Deadline / Urgent",
+      "keywords": [
+        "deadline",
+        "urgent",
+        "action required",
+        "expires",
+        "last chance",
+        "reminder",
+        "due today"
+      ],
+      "fields": ["subject", "body"],
+      "match_any": true
+    },
+    {
+      "name": "Offer / Decision",
+      "keywords": [
+        "offer letter",
+        "job offer",
+        "congratulations",
+        "we'd like to offer",
+        "pleased to inform",
+        "moving forward"
+      ],
+      "fields": ["subject", "body"],
+      "match_any": true
+    }
+  ]
+}
